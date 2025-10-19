@@ -1,0 +1,35 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# data artifacts
+data/raw/
+data/out/
+*.csv
+*.json
+!data/.keep
+
+# logs
+*.log
+
+# macOS
+.DS_Store
+
+# vscode/jetbrains
+.vscode/
+.idea/
+
+# ollama cache (на всякий случай)
+~/.ollama/
+
+# go build cache
+go/bin/
+bin/
+dist/
+
+# env
+.env
+.env.local
+
